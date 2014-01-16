@@ -1,4 +1,7 @@
 DbSwitchTest::Application.routes.draw do
+  resources :main, :only => :index
+  root :to => "main#index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
