@@ -1,0 +1,6 @@
+[submodule "db"]
+	path = db
+	url = https://github.com/monkeydancers/ProActive-DB.git
+[submodule "app/models"]
+	path = app/models
+	url = https://github.com/monkeydancers/ProActive-Models.git
